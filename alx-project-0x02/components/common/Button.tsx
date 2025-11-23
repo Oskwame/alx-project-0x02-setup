@@ -1,5 +1,6 @@
 import React from "react";
-import type { ButtonProps, ButtonSize } from "@/interfaces";
+import { type ButtonProps } from "@/interfaces";
+import type { ButtonSize } from "@/interfaces";
 
 const sizeMap: Record<ButtonSize, string> = {
   small: "px-3 py-1 text-sm",
