@@ -13,6 +13,7 @@ const Header: React.FC<HeaderProps> = ({ title = "Welcome" }) => {
         <nav className="flex items-center gap-4 text-sm font-medium">
           <Link className="text-black hover:underline dark:text-zinc-50" href="/home">Home</Link>
           <Link className="text-black hover:underline dark:text-zinc-50" href="/about">About</Link>
+          <Link className="text-black hover:underline dark:text-zinc-50" href="/posts">Posts</Link>
         </nav>
       </div>
     </header>
